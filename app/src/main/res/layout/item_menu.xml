@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginBottom="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_hari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/ivGambarMenu"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="top" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:orientation="vertical"
+                android:paddingRight="8dp">
+
+                <TextView
+                    android:id="@+id/tvNamaMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:text="Kolak Tajil" />
+
+                <TextView
+                    android:id="@+id/tvDeskripsiMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="12sp"
+                    tools:text="Kolak Tajil adalah kolak yang berisi campuran bahan seperti pisang, ubi jalar, dan kolang kaling yang kemudian kuahnya diberi campuran gula merah, gula pasir, daun pandan dan kayu manis. Kayu manis membuat kuah Kolak Tajil ini lebih memiliki aroma yang harum dan menggugah selera. Berikut resep lengkapnya." />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
